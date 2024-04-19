@@ -4,11 +4,15 @@
     "inquirer": "^9.2.19",
     "typecript": "^0.0.1-security"
   },
-  "name": "wordcounter",
+  "name": "ayazahmed07-wordcounter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "wordcounter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
