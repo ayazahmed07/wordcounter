@@ -1,23 +1,21 @@
 {
-  "dependencies": {
-    "global": "^4.4.0",
-    "inquirer": "^9.2.19",
-    "typecript": "^0.0.1-security"
-  },
-  "name": "ayazahmed07-wordcounter",
+  "name": "06-wordcounter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "wordcounter.js",
   "type": "module",
   "publishConfig": {
     "access": "public"
   },
-  "bin": "wordcounter.js",
+  "bin": "todo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.19"
+  },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
   }
